@@ -1,0 +1,57 @@
+{
+  "name": "dsh-course-autoplay",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "网课挂机：用已登录的浏览器自动播完网课并推进到下一节，带可视化面板、可复用的站点经验和计划文档",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./client": "./client.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "author": "Baimacao",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baimacao/dsh-course-autoplay.git"
+  },
+  "homepage": "https://github.com/Baimacao/dsh-course-autoplay#readme",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "course",
+    "autoplay",
+    "browser",
+    "automation"
+  ]
+}

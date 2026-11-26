@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Course autoplay",
+    "description": "Plays online course videos in your logged-in browser, advances lesson by lesson, and exposes progress, a plan document and the run log on a visual panel. A new site needs no code: add its course-list URL with autoplay_sites, then autoplay_discover sniffs the page, drafts a site profile, replays it to confirm, and saves it; recognised domains reuse the stored profile next time. Two built-in profiles ship for the Hunan Normal University continuing-education platform and the Hengyang teacher-ethics course site. The panel opens from the Autoplay button in the session header: site progress, goal, plan, log and start/stop. All data stays local under <DSH_HOME>/course-autoplay (sites.json, state.json, profiles/, plan.md, plan.json, run.log). Nothing is sent to an external service and no credentials are typed: it reuses the session already in your browser, and never changes playback speed. Requires the bsk CLI with a connected browser extension; the daemon must run from a task outside DSH."
+  }
+}

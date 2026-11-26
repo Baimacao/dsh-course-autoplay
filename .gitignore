@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+plan.md
+plan.json
+state.json
+sites.json

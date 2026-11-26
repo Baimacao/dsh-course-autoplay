@@ -1,0 +1,25 @@
+{
+  "id": "hnzjpx",
+  "name": "衡阳市中小学教师师德师风培训",
+  "domain": "www.hnzjpx.cn",
+  "source": "builtin",
+  "version": 1,
+  "listPage": {
+    "urlHint": "/235/subject",
+    "row": {
+      "clickSelector": "button",
+      "clickText": "立即学习",
+      "blockUp": 6,
+      "blockMustContain": "学习进度",
+      "progressRegex": "([0-9]+)%"
+    }
+  },
+  "playerPage": {
+    "videoSelector": "video",
+    "section": {
+      "selector": ".section_list .section",
+      "activeClass": "active",
+      "doneText": "已完成"
+    }
+  }
+}

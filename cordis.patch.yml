@@ -1,0 +1,4 @@
+# dsh-course-autoplay：宿主层挂一行，只给主智能体装挂课工具。
+- insert:
+    - id: dsh-course-autoplay
+      name: dsh-course-autoplay
